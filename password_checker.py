@@ -16,7 +16,7 @@ def assess_password(password: str):
 
     if len(password) >= 12:
         score += 2
-    elif len(password) >= 8:
+    elif len(password) >= 10:
         score += 1
     else:
         tips.append("Use at least 12 characters.")
